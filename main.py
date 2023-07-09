@@ -24,7 +24,3 @@ while machine_on:
         if make_coffee.is_resource_sufficient(drink):
             if money.make_payment(cost):
                 make_coffee.make_coffee(drink)
-            else:
-                continue
-        else:
-            continue
